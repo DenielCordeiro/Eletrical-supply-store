@@ -1,0 +1,55 @@
+@use '../base/variables'
+@use '../base/base-mixins'
+@use 'layouts-mixins'
+
+.footer
+	background-color: variables.$bg-color 
+	padding: 3rem 0
+
+	a, p
+		color: variables.$gray-text-color 
+		
+	li, p 
+		margin-bottom: 1rem
+
+		a
+			&:hover
+				color: variables.$primary-color
+
+	i
+		margin-right: .3rem
+
+	h3
+		color: variables.$light-color
+		text-transform: uppercase
+		font-size: 1.35rem
+		margin-bottom: 1.5rem
+
+	&-top
+		padding-bottom: 3rem
+		@include layouts-mixins.center-content
+
+		&-about, &-categories, &-information, &-menu
+			max-width: 25%
+
+	&-bottom
+		flex-direction: column
+		justify-content: center
+		align-items: center
+		@include layouts-mixins.center-content
+
+		&-payments
+			margin-bottom: 2rem
+
+			i
+				color: variables.$dark-color 
+				cursor: pointer
+				font-size: 3rem
+				margin: 5px
+				transition: .4s
+
+				&:hover
+					color: variables.$primary-color 
+					
+
+
