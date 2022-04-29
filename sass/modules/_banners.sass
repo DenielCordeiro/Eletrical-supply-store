@@ -1,5 +1,5 @@
 @use '../base/variables'
-// @use '../base/base-mixins'
+@use '../base/base-mixins'
 @use 'modules-mixins'
 
 .banner
@@ -8,8 +8,12 @@
 	position: relative
 	color: variables.$light-color
 	transition: .4s
-	@include modules-mixins.center-bg
 	background-size: 100%
+	@include modules-mixins.center-bg
+
+	@include base-mixins.mobile
+		width: 90%
+		margin: 1rem
 
 	&:hover
 		background-size: 120%

@@ -10,6 +10,9 @@
 	padding: 3rem
 	border-top: 2px solid variables.$section-bg-color
 
+	@include base-mixins.mobile
+		text-align: center
+
 	h2
 		font-size: 2rem
 		color: variables.$dark-color 
@@ -24,9 +27,15 @@
 		display: flex
 		margin-bottom: 3rem
 
+		@include base-mixins.mobile
+			width: 100%
+
 		input[type="email"]
 			border: 1px solid variables.$section-bg-color
 			@include layouts-mixins.rounded-input
+
+			@include base-mixins.mobile
+				width: 100%
 
 	.social-media
 		i
