@@ -7,8 +7,7 @@ Este projeto é o desenvolvimento de uma interface de e-commerce focada no setor
 
 ## 🔗 Demonstração Online
 Visualize o projeto em tempo real:  
-👉 [CLIQUE AQUI PARA VER O PROJETO](https://denielcordeiro.github.io/Eletrical-supply-store/) *(Certifique-se de ativar o GitHub Pages nas configurações)*
-
+👉 [CLIQUE AQUI PARA VER O PROJETO](https://denielcordeiro.github.io/Eletrical-supply-store/)
 ## 🚀 Tecnologias Utilizadas
 
 O projeto foi construído utilizando as seguintes ferramentas:
