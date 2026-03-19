@@ -1,6 +1,6 @@
 # Electrical Supply Store ⚡
 
-![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
+![Status](https://img.shields.io/badge/Status-Concluído-success)
 ![GitHub language count](https://img.shields.io/github/languages/count/DenielCordeiro/Eletrical-supply-store)
 
 Este projeto é o desenvolvimento de uma interface de e-commerce focada no setor de suprimentos elétricos. O objetivo é criar uma experiência de usuário limpa e funcional, permitindo a visualização de produtos e categorias de forma intuitiva.
