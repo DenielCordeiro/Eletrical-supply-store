@@ -14,7 +14,6 @@ O projeto foi construído utilizando as seguintes ferramentas:
 
 * **HTML5**: Estruturação semântica de toda a loja.
 * **CSS3**: Estilização personalizada, focada em um layout moderno e profissional.
-* **JavaScript**: Implementação de funcionalidades dinâmicas e interatividade na página.
 * **FontAwesome**: Ícones utilizados para melhorar a interface visual.
 
 ## 🛠️ Como executar o projeto
